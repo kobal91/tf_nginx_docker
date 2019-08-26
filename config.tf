@@ -1,5 +1,5 @@
 provider "docker" {
-  host = "tcp://docker:2345/"
+  host = "tcp://0.0.0.0:2376"
 }
 
 resource "docker_image" "centos" {
